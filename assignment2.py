@@ -99,18 +99,19 @@ class MyHeap():
     return Heappop(self.Array, type)
 
 from random import randint
-H = 20
-A = [0 for _ in range(H)]
-for i in range(H):
-  A[i] = randint(-H, H)
+import time, math
+def utms():
+  return math.floor(time.time() * 1000)
 
-B = dcp(A)
-B.sort()
-heap = MyHeap(A, "min")
+def measure(n):
+  heap = MyHeap([randint(-n, n) for _ in range(n)], "min")
+  del_start = utms()
+  for _ in range(n):
+    heap.pop()
+  del_end = utms()
+  print("{0}, {1}".format(n, del_end - del_start))
 
-print(A)
-print(B)
-print(heap)
-
-for _ in range(H):
-  print(heap.pop())
+ns = [100000, 200000, 400000, 800000]
+print("n, 実行時間(ms)")
+for n in ns:
+  measure(n)
