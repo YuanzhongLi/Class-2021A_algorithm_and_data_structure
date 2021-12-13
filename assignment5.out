@@ -1,0 +1,801 @@
+実行結果 A*探索
+
+OOOOOOOOOOO
+O        GO
+O OOOOOOO O
+O O     O O
+O O OOOOO O
+O O O   O O
+O O O O O O
+O O*O O O O
+O     O   O
+OOOOOOOOOOO
+
+OOOOOOOOOOO
+O        GO
+O OOOOOOO O
+O O     O O
+O O OOOOO O
+O O O   O O
+O O*O O O O
+O O*O O O O
+O     O   O
+OOOOOOOOOOO
+
+OOOOOOOOOOO
+O        GO
+O OOOOOOO O
+O O     O O
+O O OOOOO O
+O O*O   O O
+O O*O O O O
+O O*O O O O
+O     O   O
+OOOOOOOOOOO
+
+OOOOOOOOOOO
+O        GO
+O OOOOOOO O
+O O     O O
+O O*OOOOO O
+O O*O   O O
+O O*O O O O
+O O*O O O O
+O     O   O
+OOOOOOOOOOO
+
+OOOOOOOOOOO
+O        GO
+O OOOOOOO O
+O O*    O O
+O O*OOOOO O
+O O*O   O O
+O O*O O O O
+O O*O O O O
+O     O   O
+OOOOOOOOOOO
+
+OOOOOOOOOOO
+O        GO
+O OOOOOOO O
+O O**   O O
+O O*OOOOO O
+O O*O   O O
+O O*O O O O
+O O*O O O O
+O     O   O
+OOOOOOOOOOO
+
+OOOOOOOOOOO
+O        GO
+O OOOOOOO O
+O O***  O O
+O O*OOOOO O
+O O*O   O O
+O O*O O O O
+O O*O O O O
+O     O   O
+OOOOOOOOOOO
+
+OOOOOOOOOOO
+O        GO
+O OOOOOOO O
+O O**** O O
+O O*OOOOO O
+O O*O   O O
+O O*O O O O
+O O*O O O O
+O     O   O
+OOOOOOOOOOO
+
+OOOOOOOOOOO
+O        GO
+O OOOOOOO O
+O O*****O O
+O O*OOOOO O
+O O*O   O O
+O O*O O O O
+O O*O O O O
+O     O   O
+OOOOOOOOOOO
+
+OOOOOOOOOOO
+O        GO
+O OOOOOOO O
+O O*****O O
+O O*OOOOO O
+O O*O   O O
+O O*O O O O
+O O*O O O O
+O  *  O   O
+OOOOOOOOOOO
+
+OOOOOOOOOOO
+O        GO
+O OOOOOOO O
+O O*****O O
+O O*OOOOO O
+O O*O   O O
+O O*O O O O
+O O*O O O O
+O  ** O   O
+OOOOOOOOOOO
+
+OOOOOOOOOOO
+O        GO
+O OOOOOOO O
+O O*****O O
+O O*OOOOO O
+O O*O   O O
+O O*O O O O
+O O*O O O O
+O  ***O   O
+OOOOOOOOOOO
+
+OOOOOOOOOOO
+O        GO
+O OOOOOOO O
+O O*****O O
+O O*OOOOO O
+O O*O   O O
+O O*O O O O
+O O*O*O O O
+O  ***O   O
+OOOOOOOOOOO
+
+OOOOOOOOOOO
+O        GO
+O OOOOOOO O
+O O*****O O
+O O*OOOOO O
+O O*O   O O
+O O*O*O O O
+O O*O*O O O
+O  ***O   O
+OOOOOOOOOOO
+
+OOOOOOOOOOO
+O        GO
+O OOOOOOO O
+O O*****O O
+O O*OOOOO O
+O O*O*  O O
+O O*O*O O O
+O O*O*O O O
+O  ***O   O
+OOOOOOOOOOO
+
+OOOOOOOOOOO
+O        GO
+O OOOOOOO O
+O O*****O O
+O O*OOOOO O
+O O*O** O O
+O O*O*O O O
+O O*O*O O O
+O  ***O   O
+OOOOOOOOOOO
+
+OOOOOOOOOOO
+O        GO
+O OOOOOOO O
+O O*****O O
+O O*OOOOO O
+O O*O***O O
+O O*O*O O O
+O O*O*O O O
+O  ***O   O
+OOOOOOOOOOO
+
+OOOOOOOOOOO
+O        GO
+O OOOOOOO O
+O O*****O O
+O O*OOOOO O
+O O*O***O O
+O O*O*O*O O
+O O*O*O O O
+O  ***O   O
+OOOOOOOOOOO
+
+OOOOOOOOOOO
+O        GO
+O OOOOOOO O
+O O*****O O
+O O*OOOOO O
+O O*O***O O
+O O*O*O*O O
+O O*O*O*O O
+O  ***O   O
+OOOOOOOOOOO
+
+OOOOOOOOOOO
+O        GO
+O OOOOOOO O
+O O*****O O
+O O*OOOOO O
+O O*O***O O
+O O*O*O*O O
+O O*O*O*O O
+O  ***O*  O
+OOOOOOOOOOO
+
+OOOOOOOOOOO
+O        GO
+O OOOOOOO O
+O O*****O O
+O O*OOOOO O
+O O*O***O O
+O O*O*O*O O
+O O*O*O*O O
+O  ***O** O
+OOOOOOOOOOO
+
+OOOOOOOOOOO
+O        GO
+O OOOOOOO O
+O O*****O O
+O O*OOOOO O
+O O*O***O O
+O O*O*O*O O
+O O*O*O*O O
+O  ***O***O
+OOOOOOOOOOO
+
+OOOOOOOOOOO
+O        GO
+O OOOOOOO O
+O O*****O O
+O O*OOOOO O
+O O*O***O O
+O O*O*O*O O
+O O*O*O*O*O
+O  ***O***O
+OOOOOOOOOOO
+
+OOOOOOOOOOO
+O        GO
+O OOOOOOO O
+O O*****O O
+O O*OOOOO O
+O O*O***O O
+O O*O*O*O*O
+O O*O*O*O*O
+O  ***O***O
+OOOOOOOOOOO
+
+OOOOOOOOOOO
+O        GO
+O OOOOOOO O
+O O*****O O
+O O*OOOOO O
+O O*O***O*O
+O O*O*O*O*O
+O O*O*O*O*O
+O  ***O***O
+OOOOOOOOOOO
+
+OOOOOOOOOOO
+O        GO
+O OOOOOOO O
+O O*****O O
+O O*OOOOO*O
+O O*O***O*O
+O O*O*O*O*O
+O O*O*O*O*O
+O  ***O***O
+OOOOOOOOOOO
+
+OOOOOOOOOOO
+O        GO
+O OOOOOOO O
+O O*****O*O
+O O*OOOOO*O
+O O*O***O*O
+O O*O*O*O*O
+O O*O*O*O*O
+O  ***O***O
+OOOOOOOOOOO
+
+OOOOOOOOOOO
+O        GO
+O OOOOOOO*O
+O O*****O*O
+O O*OOOOO*O
+O O*O***O*O
+O O*O*O*O*O
+O O*O*O*O*O
+O  ***O***O
+OOOOOOOOOOO
+
+OOOOOOOOOOO
+O        *O
+O OOOOOOO*O
+O O*****O*O
+O O*OOOOO*O
+O O*O***O*O
+O O*O*O*O*O
+O O*O*O*O*O
+O  ***O***O
+OOOOOOOOOOO
+
+A*探索での最短距離: 20
+
+===================
+
+実行結果 貪欲最良優先探索
+
+OOOOOOOOOOO
+O        GO
+O OOOOOOO O
+O O     O O
+O O OOOOO O
+O O O   O O
+O O O O O O
+O O*O O O O
+O     O   O
+OOOOOOOOOOO
+
+OOOOOOOOOOO
+O        GO
+O OOOOOOO O
+O O     O O
+O O OOOOO O
+O O O   O O
+O O*O O O O
+O O*O O O O
+O     O   O
+OOOOOOOOOOO
+
+OOOOOOOOOOO
+O        GO
+O OOOOOOO O
+O O     O O
+O O OOOOO O
+O O O   O O
+O O*O O O O
+O O*O O O O
+O  *  O   O
+OOOOOOOOOOO
+
+OOOOOOOOOOO
+O        GO
+O OOOOOOO O
+O O     O O
+O O OOOOO O
+O O*O   O O
+O O*O O O O
+O O*O O O O
+O  *  O   O
+OOOOOOOOOOO
+
+OOOOOOOOOOO
+O        GO
+O OOOOOOO O
+O O     O O
+O O OOOOO O
+O O*O   O O
+O O*O O O O
+O O*O O O O
+O  ** O   O
+OOOOOOOOOOO
+
+OOOOOOOOOOO
+O        GO
+O OOOOOOO O
+O O     O O
+O O OOOOO O
+O O*O   O O
+O O*O O O O
+O O*O O O O
+O *** O   O
+OOOOOOOOOOO
+
+OOOOOOOOOOO
+O        GO
+O OOOOOOO O
+O O     O O
+O O*OOOOO O
+O O*O   O O
+O O*O O O O
+O O*O O O O
+O *** O   O
+OOOOOOOOOOO
+
+OOOOOOOOOOO
+O        GO
+O OOOOOOO O
+O O     O O
+O O*OOOOO O
+O O*O   O O
+O O*O O O O
+O O*O O O O
+O ****O   O
+OOOOOOOOOOO
+
+OOOOOOOOOOO
+O        GO
+O OOOOOOO O
+O O     O O
+O O*OOOOO O
+O O*O   O O
+O O*O O O O
+O O*O O O O
+O*****O   O
+OOOOOOOOOOO
+
+OOOOOOOOOOO
+O        GO
+O OOOOOOO O
+O O*    O O
+O O*OOOOO O
+O O*O   O O
+O O*O O O O
+O O*O O O O
+O*****O   O
+OOOOOOOOOOO
+
+OOOOOOOOOOO
+O        GO
+O OOOOOOO O
+O O*    O O
+O O*OOOOO O
+O O*O   O O
+O O*O O O O
+O O*O*O O O
+O*****O   O
+OOOOOOOOOOO
+
+OOOOOOOOOOO
+O        GO
+O OOOOOOO O
+O O*    O O
+O O*OOOOO O
+O O*O   O O
+O O*O O O O
+O*O*O*O O O
+O*****O   O
+OOOOOOOOOOO
+
+OOOOOOOOOOO
+O        GO
+O OOOOOOO O
+O O**   O O
+O O*OOOOO O
+O O*O   O O
+O O*O O O O
+O*O*O*O O O
+O*****O   O
+OOOOOOOOOOO
+
+OOOOOOOOOOO
+O        GO
+O OOOOOOO O
+O O**   O O
+O O*OOOOO O
+O O*O   O O
+O O*O*O O O
+O*O*O*O O O
+O*****O   O
+OOOOOOOOOOO
+
+OOOOOOOOOOO
+O        GO
+O OOOOOOO O
+O O**   O O
+O O*OOOOO O
+O O*O   O O
+O*O*O*O O O
+O*O*O*O O O
+O*****O   O
+OOOOOOOOOOO
+
+OOOOOOOOOOO
+O        GO
+O OOOOOOO O
+O O***  O O
+O O*OOOOO O
+O O*O   O O
+O*O*O*O O O
+O*O*O*O O O
+O*****O   O
+OOOOOOOOOOO
+
+OOOOOOOOOOO
+O        GO
+O OOOOOOO O
+O O***  O O
+O O*OOOOO O
+O O*O*  O O
+O*O*O*O O O
+O*O*O*O O O
+O*****O   O
+OOOOOOOOOOO
+
+OOOOOOOOOOO
+O        GO
+O OOOOOOO O
+O O***  O O
+O O*OOOOO O
+O*O*O*  O O
+O*O*O*O O O
+O*O*O*O O O
+O*****O   O
+OOOOOOOOOOO
+
+OOOOOOOOOOO
+O        GO
+O OOOOOOO O
+O O**** O O
+O O*OOOOO O
+O*O*O*  O O
+O*O*O*O O O
+O*O*O*O O O
+O*****O   O
+OOOOOOOOOOO
+
+OOOOOOOOOOO
+O        GO
+O OOOOOOO O
+O O**** O O
+O O*OOOOO O
+O*O*O** O O
+O*O*O*O O O
+O*O*O*O O O
+O*****O   O
+OOOOOOOOOOO
+
+OOOOOOOOOOO
+O        GO
+O OOOOOOO O
+O O**** O O
+O*O*OOOOO O
+O*O*O** O O
+O*O*O*O O O
+O*O*O*O O O
+O*****O   O
+OOOOOOOOOOO
+
+OOOOOOOOOOO
+O        GO
+O OOOOOOO O
+O O*****O O
+O*O*OOOOO O
+O*O*O** O O
+O*O*O*O O O
+O*O*O*O O O
+O*****O   O
+OOOOOOOOOOO
+
+OOOOOOOOOOO
+O        GO
+O OOOOOOO O
+O O*****O O
+O*O*OOOOO O
+O*O*O***O O
+O*O*O*O O O
+O*O*O*O O O
+O*****O   O
+OOOOOOOOOOO
+
+OOOOOOOOOOO
+O        GO
+O OOOOOOO O
+O*O*****O O
+O*O*OOOOO O
+O*O*O***O O
+O*O*O*O O O
+O*O*O*O O O
+O*****O   O
+OOOOOOOOOOO
+
+OOOOOOOOOOO
+O        GO
+O OOOOOOO O
+O*O*****O O
+O*O*OOOOO O
+O*O*O***O O
+O*O*O*O*O O
+O*O*O*O O O
+O*****O   O
+OOOOOOOOOOO
+
+OOOOOOOOOOO
+O        GO
+O*OOOOOOO O
+O*O*****O O
+O*O*OOOOO O
+O*O*O***O O
+O*O*O*O*O O
+O*O*O*O O O
+O*****O   O
+OOOOOOOOOOO
+
+OOOOOOOOOOO
+O        GO
+O*OOOOOOO O
+O*O*****O O
+O*O*OOOOO O
+O*O*O***O O
+O*O*O*O*O O
+O*O*O*O*O O
+O*****O   O
+OOOOOOOOOOO
+
+OOOOOOOOOOO
+O*       GO
+O*OOOOOOO O
+O*O*****O O
+O*O*OOOOO O
+O*O*O***O O
+O*O*O*O*O O
+O*O*O*O*O O
+O*****O   O
+OOOOOOOOOOO
+
+OOOOOOOOOOO
+O**      GO
+O*OOOOOOO O
+O*O*****O O
+O*O*OOOOO O
+O*O*O***O O
+O*O*O*O*O O
+O*O*O*O*O O
+O*****O   O
+OOOOOOOOOOO
+
+OOOOOOOOOOO
+O**      GO
+O*OOOOOOO O
+O*O*****O O
+O*O*OOOOO O
+O*O*O***O O
+O*O*O*O*O O
+O*O*O*O*O O
+O*****O*  O
+OOOOOOOOOOO
+
+OOOOOOOOOOO
+O***     GO
+O*OOOOOOO O
+O*O*****O O
+O*O*OOOOO O
+O*O*O***O O
+O*O*O*O*O O
+O*O*O*O*O O
+O*****O*  O
+OOOOOOOOOOO
+
+OOOOOOOOOOO
+O***     GO
+O*OOOOOOO O
+O*O*****O O
+O*O*OOOOO O
+O*O*O***O O
+O*O*O*O*O O
+O*O*O*O*O O
+O*****O** O
+OOOOOOOOOOO
+
+OOOOOOOOOOO
+O****    GO
+O*OOOOOOO O
+O*O*****O O
+O*O*OOOOO O
+O*O*O***O O
+O*O*O*O*O O
+O*O*O*O*O O
+O*****O** O
+OOOOOOOOOOO
+
+OOOOOOOOOOO
+O****    GO
+O*OOOOOOO O
+O*O*****O O
+O*O*OOOOO O
+O*O*O***O O
+O*O*O*O*O O
+O*O*O*O*O O
+O*****O***O
+OOOOOOOOOOO
+
+OOOOOOOOOOO
+O*****   GO
+O*OOOOOOO O
+O*O*****O O
+O*O*OOOOO O
+O*O*O***O O
+O*O*O*O*O O
+O*O*O*O*O O
+O*****O***O
+OOOOOOOOOOO
+
+OOOOOOOOOOO
+O*****   GO
+O*OOOOOOO O
+O*O*****O O
+O*O*OOOOO O
+O*O*O***O O
+O*O*O*O*O O
+O*O*O*O*O*O
+O*****O***O
+OOOOOOOOOOO
+
+OOOOOOOOOOO
+O******  GO
+O*OOOOOOO O
+O*O*****O O
+O*O*OOOOO O
+O*O*O***O O
+O*O*O*O*O O
+O*O*O*O*O*O
+O*****O***O
+OOOOOOOOOOO
+
+OOOOOOOOOOO
+O******  GO
+O*OOOOOOO O
+O*O*****O O
+O*O*OOOOO O
+O*O*O***O O
+O*O*O*O*O*O
+O*O*O*O*O*O
+O*****O***O
+OOOOOOOOOOO
+
+OOOOOOOOOOO
+O******* GO
+O*OOOOOOO O
+O*O*****O O
+O*O*OOOOO O
+O*O*O***O O
+O*O*O*O*O*O
+O*O*O*O*O*O
+O*****O***O
+OOOOOOOOOOO
+
+OOOOOOOOOOO
+O******* GO
+O*OOOOOOO O
+O*O*****O O
+O*O*OOOOO O
+O*O*O***O*O
+O*O*O*O*O*O
+O*O*O*O*O*O
+O*****O***O
+OOOOOOOOOOO
+
+OOOOOOOOOOO
+O********GO
+O*OOOOOOO O
+O*O*****O O
+O*O*OOOOO O
+O*O*O***O*O
+O*O*O*O*O*O
+O*O*O*O*O*O
+O*****O***O
+OOOOOOOOOOO
+
+OOOOOOOOOOO
+O********GO
+O*OOOOOOO O
+O*O*****O O
+O*O*OOOOO*O
+O*O*O***O*O
+O*O*O*O*O*O
+O*O*O*O*O*O
+O*****O***O
+OOOOOOOOOOO
+
+OOOOOOOOOOO
+O*********O
+O*OOOOOOO O
+O*O*****O O
+O*O*OOOOO*O
+O*O*O***O*O
+O*O*O*O*O*O
+O*O*O*O*O*O
+O*****O***O
+OOOOOOOOOOO
+
+貪欲最良優先探索での最短距離: 18
